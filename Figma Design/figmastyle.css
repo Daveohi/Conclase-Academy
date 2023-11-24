@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.centernav {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(16px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* padding-left: 128px; */
+    /* padding-right: 128px; */
+    padding-top: 16px;
+    padding-bottom: 16px;
+    /* border: 1px red solid; */
+    position: fixed;
+
+}
+
+.navbar-brand {
+    color: #214AA0;
+    font-size: 32px;
+    font-family: Euclid Circular A;
+    font-weight: 600;
+    line-height: 48px;
+    display: inline-flex;
+
+}
+
+
+
+.nav {
+    width: 70%;
+    margin-top: 16px;
+    background: #F9F9F9;
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    text-align: center;
+    gap: 117px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 32px;
+    justify-content: center;
+    /* border: 1px solid green; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navmenu {
+
+    align-items: center;
+    /* border: 1px red solid ; */
+}
+
+.menu {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+
+.nav-item {
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    font-family: Euclid Circular A;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+
+.list {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.nav-list1 {
+    color: #214AA0;
+    font-size: 16px;
+    font-family: Euclid Circular A;
+    font-weight: 600;
+    line-height: 24px;
+    border-bottom: 1px solid;
+    /* gap: 71px; */
+}
+
+.nav-list2 {
+    color: #FDC329;
+    font-size: 16px;
+    font-family: Euclid Circular A;
+    font-weight: 600;
+    line-height: 24px;
+    border-bottom: 1px solid;
+    /* gap: 32px; */
+}
+
+.brand-logo {
+    /* display: block; */
+    width: 4%;
+    margin-top: 40px;
+    margin-left: 242px;
+    padding: 5px;
+    /* border: 1px solid red; */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid darkorange; */
+
+}
+
+.page {
+    width: 66%;
+    margin-top: 15px;
+    line-height: 99.60px;
+    /* border: 1px solid red; */
+    /* padding: 4px; */
+}
+
+.text-center {
+    color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-top: 18x;
+    font-size: 64px;
+    font-family: Satoshi;
+    font-weight: 700;
+    line-height: 76.80px;
+    /* word-wrap: break-word; */
+}
+
+.word {
+    color: black;
+}
+
+div p {
+    text-align: justify;
+}
+
+.logo {
+    margin-left: 1250px;
+    margin-top: 25px;
+}
+
+.row {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 64px;
+    /* border: 1px solid darkgray; */
+
+}
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 44px;
+    width: 80%;
+    /* /* padding-left: 128px; */
+    /* padding-right: 128px; */
+    padding-top: 32px;
+    padding-bottom: 32px;
+    /* border: 1px solid darkturquoise; */
+}
+
+.about {
+    /* display: block; */
+    flex-direction: column;
+    /* width: 50%; */
+    /* gap: 44px; */
+}
+
+.text-page {
+    color: black;
+    font-size: 16px;
+    font-family: Satoshi;
+    font-weight: 400;
+    line-height: 24px;
+    /* word-wrap: break-word; */
+    /* text-align: left; */
+}
+
+.about-button {
+    width: fit-content;
+    /* height: 100%; */
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #FDC329;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    gap: 64px;
+    /* display: inline-flex; */
+}
+
+.btn {
+    color: black;
+    font-size: 18px;
+    font-family: Euclid Circular A;
+    font-weight: 600;
+    line-height: 27px;
+    /* display: inline-flex; */
+    width: fit-content;
+    border: none;
+    /* font-weight: 700; */
+}
+
+.card-frame {
+    margin-top: 36px;
+    padding-top: 100px;
+}
+
+.card-title {
+    color: rgba(255, 255, 255, 0.30);
+    font-size: 16px;
+    font-family: Satoshi;
+    font-weight: 700;
+    line-height: 19.20px;
+    text-align: center;
+}
+
+.card-table {
+    /* width: 100%; */
+    height: 100%;
+    display: grid;
+    /* justify-content: center; */
+    padding-left: 412px;
+    padding-right: 312px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    /* align-items: center; */
+
+}
+
+.grid-container {
+    width: 80%;
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: 50% 50%;
+    column-gap: 1px;
+    background: #0D0D0D;
+    border-radius: 8px;
+}
+
+.box1 {
+    /* width: 0%; */
+    /* border: 1px solid orange; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 52px;
+    padding-right: 202px;
+
+    /* grid-template-rows: auto; */
+}
+
+.box-title {
+    color: white;
+    font-size: 32px;
+    font-family: Satoshi;
+    font-weight: 700;
+    line-height: 38.40px;
+    white-space: nowrap;
+    padding-bottom: 20px;
+}
+
+.list1 {
+    line-height: 27px;
+    /*  */
+}
+
+.point {
+    color: white;
+    font-size: 18px;
+    font-family: Satoshi;
+    font-weight: 400;
+    line-height: 27px;
+    list-style-type: disc;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
+
+h4 .text-title {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.30);
+    font-size: 16px;
+    font-family: Satoshi;
+    /* font-weight: 700; */
+    line-height: 19.20px;
+    text-align: center;
+}
+
+.bi-arrow-up-right {
+    color: #FDC329;
+    width: 20px;
+    height: 0px;
+    /* font-weight:bolder; */
+}
+
+.end {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    padding: 128px 129px 64px 128px;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.txt {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    /* 57.6px */
+    letter-spacing: -0.96px;
+}
+
+.txt1 {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+    width: 374px;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 19.2px */
+    letter-spacing: -0.32px;
+}
+
+li .link1  {
+    line-height: 52px;
+    color: rgba(255, 255, 255, 0.50);
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social {
+    color: white;
+    display: inline-flex;
+    padding-right: 20px;
+}

@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 90%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:150vh;
+    width: 100%;
+}
+
+/*Navbar*/
+.topnav {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#ffffff ;
+    align-items: center;
+    border-bottom: 3px solid lightgray;
+
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    padding-left: 40px;
+    align-items: center;
+
+}
+
+.nav-item {
+    display:flex;
+    gap: 10px;
+    padding-right: 50px;
+    align-items: center;
+    
+}
+
+.fa-square {
+    font-size: 30px;
+    color: lightgray;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.fa-circle {
+    font-size: 30px; 
+    color: lightgray; 
+    background-color: lightgray; border-radius: 50px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 93%;
+}
+/*Sidebar*/
+.leftnav {
+    height: 142vh;
+    margin-top: 1px;
+    width: 7%;
+    float: left;
+    background-color: #ffffff;
+    border-right: 3px solid lightgray;
+}
+
+.nav-menu {
+    height: 125vh;
+    text-align: center;
+    overflow-y: stop;
+}
+
+.navlist {
+    text-align: center;
+}
+
+.icon {
+    font-size: 20px;
+    /*padding: 15px 40px 15px 40px;*/
+    color: lightgray;
+    margin-top: 30px;
+    
+}
+
+.icon:hover {
+    background-color: #892cc9;
+    cursor:none;
+    padding: 10px;
+    border-radius: 8px;
+        
+}
+
+/*Main body*/
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    width: 90%;
+    position: absolute;
+    bottom : 42rem;
+    left: 140px;
+
+}
+
+.grid {
+    display: grid;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.box {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    margin: 5px;
+    line-height: 1px;
+}
+
+.fa-arrow-down {
+    color: red;
+}
+
+.fa-arrow-up {
+    color: mediumaquamarine;
+}
+
+.figure {
+    color: mediumaquamarine;
+}
+
+/*Sections*/
+.dashboard-img {
+    display: flex;
+    position: absolute;
+    bottom: 13.6rem;
+    left: 200px;
+    width: 50%;
+    height: 50%;
+    color: #ffffff;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 37.2rem;
+    right: 5rem;
+    width: 32%;
+    gap: 200px;
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.texthead {
+    margin-right: 95px;
+    font-weight: 700;
+}
+
+select {
+    border-radius: 8px;
+    height: 30px;
+    color: #892cc9;
+    border: 1px solid #892cc9;
+    padding: 6px;
+}
+
+.txt {
+    color: lightgray;
+}
+
+.boxes {
+    overflow-y: scroll;
+    position: absolute;
+    bottom: 13.6rem;
+    right: 5em;
+    width: 32.2%;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.boxlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-right: 5px;
+    background-color: #ffffff;
+    padding: 4.5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+.items {
+    display: flex;
+    gap: 10px;
+}
+
+.table-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 9rem;
+    left: 12.5rem;
+    width: 83.5%;
+    border-radius: 8px;
+}
+
+.top {
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+.fa-ellipsis-v {
+    margin-right: 25px;
+    color: lightgray;
+}
+
+.table-container {
+    position: absolute;
+    top: 44.5rem;
+    left: 12.5rem;
+    width: 83.5%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead {
+    padding: 20px;
+    border-left: 15px solid #ffffff;
+    border-right: 15px solid #ffffff;
+}
+
+tbody {
+    background-color: #ffffff;
+    width: 85%;
+}
+
+th {
+    padding: 20px;
+}
+
+td {
+    padding: 18px;
+    border-left: 15px solid #ffffff;
+    border-right: 15px solid #ffffff;
+}
+
+th, td {
+    text-align: left;
+    border-bottom: 0.5px solid #f1eeee;
+}
+
+.dot {
+    position: relative;
+    left: 75px;
+    color: lightgray;
+}

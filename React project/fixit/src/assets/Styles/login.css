@@ -1,0 +1,36 @@
+.login-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    
+}
+
+.logo-box {
+    padding: 20px 82px;
+}
+
+.logo {
+    height: 56%;
+    width: 140px;
+    object-fit: cover;
+}
+
+.login-box {
+    width: 677px;
+    height: 566px;
+    padding: 48px 95px 90px 95px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 32px;
+    border: 1px solid #75a734;
+}
+
+.loin-header {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+}

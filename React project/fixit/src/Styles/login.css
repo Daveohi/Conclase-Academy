@@ -1,0 +1,127 @@
+.login-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    
+}
+
+.logo-box {
+    padding: 20px 82px;
+}
+
+.logo {
+    height: 56px;
+    width: 140px;
+    object-fit: cover;
+    
+}
+
+.login-box {
+    margin: 0 auto;
+    width: 677px;
+    height: 520px;
+    padding: 48px 95px 70px 95px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 32px;
+    border: 1px solid #75a734;
+}
+
+.login-header {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.text-input {
+    padding: 16px;
+    border-radius: 8px;
+    background: #f8f8f8;
+    border: none;
+    outline: none;
+    color: #000;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+
+.login-checkbox {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.login-checkbox input {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #75a734;
+}
+
+.login-checkbox p {
+    color: #000;
+    line-height: 150%;
+}
+
+.login-button {
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #75a734;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.pass-container {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-radius: 8px;
+    background: #f8f8f8;
+}
+
+.pass-input {
+    width: 80%;
+    color: #000;
+    font-weight: 500;
+    line-height: 150%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.pass-input p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    cursor: pointer;
+}
